@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FCMpushNotification</string>
+    <string name="logo">logo</string>
+    <string name="this_is_desc">this is desc</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="push">Push</string>
+    <string name="titles">Title</string>
+    <string name="notification">Notification</string>
+    <string name="push_all">push all</string>
+    <string name="token">device id</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+</resources>

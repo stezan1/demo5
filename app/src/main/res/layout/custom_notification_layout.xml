@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/notification"
+        android:contentDescription="@string/logo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/app_logo"
+        android:text="Notification Title"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_toEndOf="@id/app_logo"
+        android:text="This is the notification message."
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message"
+        android:layout_marginTop="10dp"
+        android:text="Accept"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/reject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/accept"
+        android:layout_alignBaseline="@id/accept"
+        android:layout_marginStart="10dp"
+        android:text="Reject"
+        android:padding="5dp" />
+
+</RelativeLayout>
